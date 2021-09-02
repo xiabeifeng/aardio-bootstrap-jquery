@@ -1,0 +1,23 @@
+import win.ui;
+/*DSG{{*/
+mainForm = win.form(text="aardio-bootstrap-jquery";right=959;bottom=749)
+mainForm.add()
+/*}}*/
+
+import web.form;
+import web.kit.portable;
+import web.kit.form;
+
+var webkit = web.kit.form(mainForm);
+webkit.go("/res/index.html");
+
+// 定义函数，给js调用
+webkit.external={
+	showMsgBox = function(inputVal) {
+		mainForm.msgbox("您输入的数据是：" + inputVal)
+	}
+}
+
+mainForm.show();
+
+return win.loopMessage();

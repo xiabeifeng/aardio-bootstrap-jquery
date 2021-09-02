@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="aardio-bootstrap-jquery" libEmbed="true" icon="..." ui="win" output="aardio-bootstrap-jquery.exe" CompanyName="单位名称" FileDescription="aardio-bootstrap-jquery" LegalCopyright="Copyright (C) xiabeifeng 2021" ProductName="aardio-bootstrap-jquery" InternalName="aardio-bootstrap-jquery" FileVersion="0.0.0.26" ProductVersion="0.0.0.26" publishDir="/dist/" dstrip="false" local="false" ignored="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true" local="false" ignored="false">
+		<file name="index.html" path="res\index.html" comment="res\index.html"/>
+		<folder name="css" path="res\css" comment="res\css">
+			<file name="bootstrap-3.4.1.min.css" path="res\css\bootstrap-3.4.1.min.css" comment="res\css\bootstrap-3.4.1.min.css"/>
+		</folder>
+		<folder name="fonts" path="res\fonts" comment="res\fonts">
+			<file name="glyphicons-halflings-regular.eot" path="res\fonts\glyphicons-halflings-regular.eot" comment="res\fonts\glyphicons-halflings-regular.eot"/>
+			<file name="glyphicons-halflings-regular.svg" path="res\fonts\glyphicons-halflings-regular.svg" comment="res\fonts\glyphicons-halflings-regular.svg"/>
+			<file name="glyphicons-halflings-regular.ttf" path="res\fonts\glyphicons-halflings-regular.ttf" comment="res\fonts\glyphicons-halflings-regular.ttf"/>
+			<file name="glyphicons-halflings-regular.woff" path="res\fonts\glyphicons-halflings-regular.woff" comment="res\fonts\glyphicons-halflings-regular.woff"/>
+			<file name="glyphicons-halflings-regular.woff2" path="res\fonts\glyphicons-halflings-regular.woff2" comment="res\fonts\glyphicons-halflings-regular.woff2"/>
+		</folder>
+		<folder name="images" path="res\images" comment="res\images"/>
+		<folder name="js" path="res\js" comment="res\js">
+			<file name="bootstrap-3.4.1.min.js" path="res\js\bootstrap-3.4.1.min.js" comment="res\js\bootstrap-3.4.1.min.js"/>
+			<file name="jquery-3.6.0.min.js" path="res\js\jquery-3.6.0.min.js" comment="res\js\jquery-3.6.0.min.js"/>
+		</folder>
+	</folder>
+	<folder name="窗体文件" path="dlg" comment="目录" embed="true" local="false" ignored="false"/>
+</project>
